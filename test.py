@@ -1,10 +1,7 @@
-a = 321
-b = 123
+username = input('请输入用户名：')
+password = input('请输入密码：')
 
-print(a + b)
-print(a - b)
-print(a * b)
-print(a / b)
-print(a // b)
-print(a % b)
-print(a ** b)
+if username == 'chenxu' and password =='111':
+    print('OK')
+else:
+    print('NO')
