@@ -1,7 +1,10 @@
-import turtle
+a = 321
+b = 123
 
-turtle.pensize(4)
-turtle.pencolor('red')
-
-test
-h
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(a ** b)
