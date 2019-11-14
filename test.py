@@ -1,7 +1,7 @@
-username = input('请输入用户名：')
-password = input('请输入密码：')
+from module1 import foo
 
-if username == 'chenxu' and password =='111':
-    print('OK')
-else:
-    print('NO')
+foo()
+
+from module2 import foo
+
+foo()
