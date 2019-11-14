@@ -1,7 +1,6 @@
-from module1 import foo
+import module1 as f1
+import module1 as f2
 
-foo()
+f1.foo()
 
-from module2 import foo
-
-foo()
+f2.foo()
